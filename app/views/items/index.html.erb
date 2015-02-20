@@ -13,7 +13,7 @@
 		<%= image_tag(item.image_url) %>
 	</p>
 	<p>
-		<% if !item.completed? %>    
+		<% if item.completed? %>    
 			 Item is completed.
 	  	<% end %>
 	</p>
